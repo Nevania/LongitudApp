@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LongitudApp.MainPage">
+
+    <Tab Title="Km a m">
+        <StackLayout>
+            <Label Text="Ingrese la cantidad en Kilómetros:"/>
+            <Entry x:Name="EntryKm" Text=""/>
+            <Button Text="Calcular" Clicked="ButtonKm_Clicked"/>
+            <Label x:Name="LabelMetros"/>
+            <Button Text="Limpiar" Clicked="ButtonLimpiar_Clicked"/>
+        </StackLayout>
+    </Tab>
+    <Tab Title="m a cm">
+        <StackLayout>
+            <Label Text="Ingrese la cantidad en Metros:"/>
+            <Entry x:Name="EntryMetros" Text=""/>
+            <Button Text="Calcular" Clicked="ButtonMetros_Clicked"/>
+            <Label x:Name="LabelCentimetros"/>
+            <Button Text="Limpiar" Clicked="ButtonLimpiar_Clicked"/>
+        </StackLayout>
+    </Tab>
+    </TabbedPage>
+
+
+</ContentPage>
